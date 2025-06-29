@@ -41,12 +41,12 @@
     "OWNER_ID": {
       "description": "Your Telegram user ID as an integer.",
       "required": false,
-      "value": "1344569458"
+      "value": "7187126565"
     },
     "SUPPORT_GROUP": {
       "description": "Your Telegram support group username for user assistance.",
       "required": false,
-      "value": "gojo_bots_network"
+      "value": "GOJOXSUPPORTXCHAT"
     },
     "MESSAGE_DUMP": {
       "description": "Channel where bot will send logs and updates.",
@@ -66,7 +66,7 @@
     "SUPPORT_CHANNEL": {
       "description": "Channel where bot updates will be posted.",
       "required": false,
-      "value": "gojo_bots_network"
+      "value": "GOJOXSUPPORTXCHAT"
     },
     "SUDO_USERS": {
       "description": "Space-separated list of user IDs to assign as sudo users.",
