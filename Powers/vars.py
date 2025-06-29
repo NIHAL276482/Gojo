@@ -13,9 +13,9 @@ class Config:
 
     LOGGER = True
     BOT_TOKEN = config("BOT_TOKEN", default=None)
-    API_ID = int(config("API_ID", default="123"))
-    API_HASH = config("API_HASH", default=None)
-    OWNER_ID = int(config("OWNER_ID", default=1344569458))
+    API_ID = int(config("API_ID", default="6d19044c96341ccb3da294f878df7659"))
+    API_HASH = config("API_HASH", default="25305140")
+    OWNER_ID = int(config("OWNER_ID", default=7187126565))
     MESSAGE_DUMP = int(config("MESSAGE_DUMP", default="0"))  # if not given owner id will be msg dump :)
     DEV_USERS = [
         int(i)
@@ -48,7 +48,7 @@ class Config:
     BDB_URI = config("BDB_URI", default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
-    SUPPORT_GROUP = config("SUPPORT_GROUP", default="gojo_bots_network")
+    SUPPORT_GROUP = config("SUPPORT_GROUP", default="GOJOXSUPPORTXCHAT")
     SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="gojo_bots_network")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE", default='Asia/Kolkata')
